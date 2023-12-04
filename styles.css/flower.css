@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Caveat", cursive;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* header section style */
+
+.header-main {
+  display: flex;
+  background-color: rgba(229, 84, 115, 0.1);
+}
+.header-section {
+  width: 1045px;
+  padding-left: 240px;
+  padding-top: 200px;
+}
+.header-title {
+  color: #272727;
+  font-size: 80px;
+  width: 708px;
+  margin-bottom: 32px;
+}
+.header-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  width: 634px;
+  margin-bottom: 32px;
+}
+.btn-primary {
+  color: #fff;
+  font-size: 20px;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+  border: none;
+}
+.header-picture {
+  width: 635px;
+  padding-top: 50px;
+  padding-right: 240px;
+}
+
+/* main section/featured flower style */
+
+.main-section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  padding-top: 180px;
+  margin-bottom: 24px;
+}
+.main-section-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+.featured-flowers {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 195px;
+}
+.flower-tulip {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  width: 464px;
+  height: 538px;
+}
+.flower-daisy {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  width: 464px;
+}
+.flower-yellow {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  width: 464px;
+}
+.flower-tulip-description {
+  text-align: center;
+  position: relative;
+  top: 20.5%;
+  left: 1%;
+}
+.flower-daisy-description {
+  text-align: center;
+  position: relative;
+  top: 18%;
+  left: 5%;
+}
+.flower-yellow-description {
+  text-align: center;
+  position: relative;
+  top: 12%;
+  left: 5%;
+}
+
+.tulip,
+.yellow-tulip {
+  margin-top: 32px;
+}
+.daisy {
+  margin-top: 107px;
+}
+.tulip a,
+.yellow-tulip a,
+.daisy a {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* service section style */
+
+.services {
+  display: flex;
+  width: 1440px;
+  height: 320px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: 0 240px;
+  margin-bottom: 130px;
+  text-align: center;
+  font-size: 24px;
+}
+.service-description {
+  color: rgba(39, 39, 39, 0.8);
+}
+
+/* hot deal container */
+
+.hot-deals-container {
+  display: flex;
+  gap: 186px;
+  height: 620px;
+  margin-bottom: 130px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+.deals-title {
+  color: #272727;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+.deals-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+.hot-deals {
+  text-align: center;
+  font-size: 18px;
+  width: 600px;
+  padding-left: 400px;
+  padding-top: 230px;
+}
+.deals-title-red {
+  color: #e55473;
+}
+.deals-image {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 400px;
+}
+
+/* new arrival bonus section */
+
+.new-arrival-container {
+  display: flex;
+  display: flex;
+  gap: 186px;
+  height: 620px;
+  margin-bottom: 130px;
+  border-radius: 8px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.new-arrival {
+  text-align: center;
+  width: 630px;
+  padding-left: 400px;
+  padding-top: 230px;
+}
+.new-arrival-title {
+  color: #272727;
+  font-size: 50px;
+  margin-bottom: 24px;
+}
+.new-arrival-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+.yellow-lily {
+  color: #a9c303;
+}
+.new-image {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 400px;
+}
+
+/* social banner section style */
+
+.social-banner-header {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+.social-banner-title {
+  color: #272727;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+.social-banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  margin-bottom: 48px;
+}
+.social-banner-images {
+  display: flex;
+  gap: 24px;
+  margin: 0 240px;
+  margin-bottom: 128px;
+}
+
+/* subscribe section style */
+
+.subscribe-container {
+  background-image: url("../Flower Asset/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1440px;
+  height: 449px;
+  margin: 0 auto;
+  margin-bottom: 130px;
+}
+.subscribe-section {
+  text-align: center;
+}
+.subscribe-title {
+  color: #272727;
+  font-size: 40px;
+  padding-top: 122px;
+}
+.subscribe-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+form input[type="email"] {
+  border-radius: 8px;
+  background: #fff;
+  padding: 22px 26px;
+  width: 600px;
+  margin-left: 287px;
+  margin-top: 50px;
+  border: none;
+  margin-right: 16px;
+}
+
+/* footer section style */
+
+footer {
+  background-color: #111010;
+  width: 1922px;
+  height: 449px;
+}
+.footer-title {
+  color: #ffffff;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 32px;
+  font-size: 18px;
+}
+.footer-style {
+  color: #e55473;
+}
+.footer-second-description {
+  color: rgba(255, 255, 255, 0.4);
+  line-height: 1.8;
+  font-size: 16px;
+}
+.footer-container {
+  text-align: center;
+  padding: 128px 648px;
+}
+
+/* responsive medium and small devices */
+
+@media screen and (max-width: 576px) {
+  .header-main,
+  .featured-flowers,
+  .services,
+  .hot-deals-container {
+    flex-direction: column;
+    /* padding: 10px; */
+    width: 100%;
+  }
+  .header-section,
+  .hot-deals {
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    /* font-size: small; */
+  }
+  .header-title,
+  .header-description,
+  .main-section-title,
+  .main-section-description {
+    /* font-size: 30px; */
+    width: 100%;
+  }
+  .header-picture img {
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+  }
+  .flower-tulip,
+  .flower-daisy,
+  .flower-yellow {
+    width: 100%;
+    /* gap: 100px; */
+  }
+  .flower-tulip-description,
+  .flower-daisy-description,
+  .flower-yellow-description {
+    width: 100%;
+  }
+  .flower-daisy {
+    margin-top: 50px;
+  }
+
+  .tulip,
+  .daisy {
+    margin-top: 10px;
+  }
+  .services {
+    margin: 20px;
+    background: none;
+    margin-bottom: 40px;
+  }
+
+  .hot-deals-container {
+    /* margin: 15px; */
+    width: 100%;
+    gap: 15px;
+  }
+  .deals-image img {
+    /* margin: 15px;
+    padding: 10px; */
+    width: 200px;
+    height: 200px;
+    padding: 0px 30px;
+  }
+  .deals-title {
+    margin-top: 180px;
+    white-space: normal;
+  }
+}
